@@ -1,0 +1,25 @@
+#abovetheinternet-github-news-filter {
+  border: solid 1px rgb(216, 216, 216);
+  margin-bottom: 1em;
+  position: relative;
+}
+
+#abovetheinternet-github-news-filter label {
+  padding: 0em 1em;
+}
+
+#abovetheinternet-github-news-filter-all-none {
+  position: absolute;
+  padding: 0em 1em;
+  right: 0px;
+  top: 0px;
+}
+
+#dashboard.hide-push .push,
+#dashboard.hide-create .create,
+#dashboard.hide-delete .delete,
+#dashboard.hide-issues_opened .issues_opened,
+#dashboard.hide-issues_closed .issues_closed,
+#dashboard.hide-issues_comment .issues_comment {
+  display: none;
+}
